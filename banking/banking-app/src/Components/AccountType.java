@@ -1,5 +1,5 @@
 package Components;
 
 public enum AccountType {
-    CURRENT, CREDIT, SAVING
+    CURRENT, CREDIT, SAVINGS
 }

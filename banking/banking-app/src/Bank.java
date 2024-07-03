@@ -1,11 +1,8 @@
-import Components.Account;
+import Components.Person;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Bank {
-    private ArrayList<Account> accountList = new ArrayList<>();
-
-    public Bank(){
-        accountList.add(new Account());
-    }
+    private AccountsDatabase accounts;
+    private List<Person> people;
 }

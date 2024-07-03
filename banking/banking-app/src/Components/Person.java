@@ -1,14 +1,23 @@
 package Components;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Person {
     private String firstName;
     private String lastName;
     private String email;
+    private List<Account> accounts;
 
     public Person(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        this.accounts = new ArrayList<>();
+    }
+
+    public void addAccount(Account account) {
+        accounts.add(account);
     }
 
     public String getFirstName() {
